@@ -13,6 +13,7 @@ class Form extends React.Component {
         this.setState({ [e.target.name]: e.target.value})
     }
 
+
     addNewSmurf = e => {
         e.preventDefault()
 

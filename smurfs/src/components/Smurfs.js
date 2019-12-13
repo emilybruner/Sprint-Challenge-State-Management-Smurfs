@@ -9,6 +9,7 @@ export const Smurfs = ({smurfs}) => {
                         <h3>{smurf.name}</h3>
                         <p>{smurf.age}</p>
                         <p>{smurf.height}</p>
+                        <p>{smurf.id}</p>
                     </div>
                 )
             })}
