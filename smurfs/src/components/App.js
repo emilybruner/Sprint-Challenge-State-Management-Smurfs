@@ -12,9 +12,7 @@ class App extends Component {
     this.props.getSmurfs()
   }
   render() {
-    if(this.props.fetching){
-      return <h2>One moment, fetching smurfs</h2>
-    }
+
     return (
       <div className="App">
         <h1>SMURFS! 2.0 W/ Redux</h1>
