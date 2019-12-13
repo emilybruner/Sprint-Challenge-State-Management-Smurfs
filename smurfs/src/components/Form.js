@@ -39,7 +39,7 @@ class Form extends React.Component {
                       />
                     <input
                       type='text'
-                      name='name'
+                      name='age'
                       placeholder="Age"
                       value={this.state.age}
                       onChange={this.handleChange}
