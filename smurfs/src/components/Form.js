@@ -16,7 +16,7 @@ class Form extends React.Component {
     addNewSmurf = e => {
         e.preventDefault()
 
-        const newSMurf = this.state
+        const newSmurf = this.state
         this.props.addSmurf(newSmurf)
 
         this.setState({
@@ -66,5 +66,5 @@ const mapStateToProps = state => {
 
 export default connect(
     mapStateToProps,
-    {addSmurf}(Form)
-)
+    {addSmurf}
+)(Form)
