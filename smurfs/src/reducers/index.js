@@ -16,7 +16,7 @@ const reducer = (state = initialState, action) => {
                 fetchingSmurf: false,
                 error: ''
             }
-        case FETCHING_SUCESS:
+        case FETCHING_SUCCESS:
             return {
                 ...state, 
                 fetchingSmurf: true,
